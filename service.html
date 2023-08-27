@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- lets see -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style1.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+    <title>Hello, world!</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  box-shadow sticky-top">
+        <a class="navbar-brand" href="#">
+            <h1 class="text-light">Lee<span class="text-warning">Foundation</span></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-bolder">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact us.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/class 1.jpg"  height="600px"  alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/class 2.jpg" height="600px" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/class 3.jpg" height="600px" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/class 4.jpg" height="600px" alt="fourth slide">
+          </div>
+        </div>
+      </div>
+<!-- services -->
+    <section class="we-offer-area text-center bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-heading text-center">
+                        <h2>What we <span>Offer</span></h2>
+                        <h4 class="text-uppercase">our best service for you</h4>
+                    </div>
+                </div>
+            </div>
+                <div class="row our-offer-items less-carousel">
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <!-- <i class="fas fa-pen-fancy"></i> -->
+                            <i class="fa-solid fa-gears"></i>
+                            <h4 class="text-uppercase">gears & equipment</h4>
+                            <p>
+                                Dont'n need to bring any equipment cause we provide you. 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <!-- <i class="fas fa-dharmachakra"></i> -->
+                            <i class="fa-solid fa-handshake"></i>
+                            <h4 class="text-uppercase">personal trainer</h4>
+                            <p class="text-uppercase">
+                                 our prime members get personal asistance in classes. 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-tasks"></i>
+                            <h4 class="text-uppercase">daily task</h4>
+                            <p class="text-uppercase">
+                                daily task for you.for your self improvement
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <!-- <i class="fas fa-tachometer-alt"></i> -->
+                            <i class="fa-solid fa-clock"></i>
+                            <h4 class="text-uppercase">flexible time</h4>
+                            <p class="text-uppercase">
+                                don't need to worry for time you can get your flexible time as you want. 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <!-- <i class="fas fa-recycle"></i> -->
+                            <i class="fa-solid fa-globe"></i>
+                            <h4 class="text-uppercase">online asistance</h4>
+                            <p class="text-uppercase">
+                                our best trainer post there daily practice session on online. 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-headset"></i>
+                            <h4 class="text-uppercase">24/7 Support</h4>
+                            <p class="text-uppercase">
+                                our best cunsoltant always ready to guide you and give best of them. 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">leeFoundation <i> WANTS TO BE SIMPLE </i> is an initiative to help the upcoming
+                Professional fighters with the skills. lee fondation providing the most efficient skills to the fighters. We will help our members to build up concepts in different fighting skills course that
+                include kung-fu,karate,muy-thai,jeetkundo,tai-chi,wu-shu,krave-maga.</p>
+            </div>
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="#box">kung fu</a></li>
+                <li><a href="#box">Tai Chi</a></li>
+                <li><a href="#box">MMA</a></li>
+                <li><a href="#box">Muy thai</a></li>
+                <li><a href="#box">Jeet Kundo</a></li>
+                <li><a href="#box">Judo</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                <li><a href="home.html">Contribute</a></li>
+                <li><a href="#"  data-toggle="modal" data-target="#termsModalLong">Privacy Policy</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by
+                <a href="#">Rohan Mandal</a>.
+              </p>
+            </div>
+    
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!--policy Modal -->
+<div class="modal fade" id="termsModalLong" tabindex="-1" role="dialog" aria-labelledby="termsModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <main class="site-main">
+            <article id="post-44364" class="post-44364 page type-page status-publish hentry">
+              <header class="entry-header">
+                <h1 class="entry-title">Terms &amp; Conditions</h1>
+              </header><!-- .entry-header -->
+              <div class="entry-content">
+                <h3><span style="font-weight: 400;">Limitation of Liability</span></h3>
+                <p><span style="font-weight: 400;">TheBootstrapThemes shall not be held accountable for any direct, indirect,
+                    special, accidental, or considerable damages that include but are not bound to, loss of data or profit
+                    caused due to use or inability to use the products that we provide under any circumstances, even if the
+                    bootstrap themes or legit representative has been considered the possibility of such damages. You are
+                    solely held responsible for any costs caused, if your use of materials from this site results in the need
+                    for servicing, repair or correction of equipment or data.</span></p>
+                <h3><span style="font-weight: 400;">Licensing Policy</span></h3>
+                <p><span style="font-weight: 400;">TheBootstrapThemes&nbsp; are released under the GNU General Public License
+                    v2 or later. You can use all our themes for personal and commercial use. Please go through the </span><a
+                    href="https://thebootstrapthemes.com/licensing-policy/"><span style="font-weight: 400;">licensing policy
+                      page</span></a><span style="font-weight: 400;"> for licensing details.</span></p>
+                <h3><span style="font-weight: 400;">Product Compatibility</span></h3>
+                <ol>
+                  <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">WordPress Themes:</span><span
+                      style="font-weight: 400;"><br> </span><span style="font-weight: 400;">The products are developed to be
+                      compatible with the latest version of WordPress because we always strive to stay up-to-date with the
+                      latest version of WordPress. You might experience certain performance or functionality glitches with the
+                      products if you use any version prior to that.</span></li>
+                  <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">HTML Themes:</span><span
+                      style="font-weight: 400;"><br> </span><span style="font-weight: 400;">The products designed are
+                      developed possess static features. Whereas, in need of forms or any other dynamic features, you will
+                      have to code as per your product requirement.</span></li>
+                </ol>
+                <h3><span style="font-weight: 400;">Delivery</span></h3>
+                <p><span style="font-weight: 400;">Any kind of information related to your purchased product(s) via Freemius
+                    will be emailed to the email address that you have provided once we receive your payment. This process
+                    usually takes a few minutes, but for some issues might get extended to 24 hours. In case you do not
+                    receive your email up to the allocated time period, you can contact us through our contact page. Also, you
+                    can access the products that you have purchased from your account in the bootstrap theme after logging
+                    in.</span></p>
+                <h3><span style="font-weight: 400;">Ownership</span></h3>
+                <p><span style="font-weight: 400;">TheBootstrapThemes claims ownership of all of its products. Hence, you may
+                    not demand any kind of proprietorship over any of our products, modified or unmodified. We provide our
+                    products without any warranty, as it is. You cannot hold our legit person accountable to any kind of
+                    damage including, but not limited to direct, indirect, special, incidental or consequential damages or
+                    other losses caused due to inefficiency in using our products.</span></p>
+                <h3><span style="font-weight: 400;">Browser Compatibility</span></h3>
+                <p><span style="font-weight: 400;">We are solely concerned with providing the best possible quality in
+                    products to our users. Thus, we make sure that our themes and templates are compatible across most major
+                    browsers including the latest version of modern web browsers such as Safari, Firefox, Internet Explorer
+                    and Chrome.</span></p>
+                <h3><span style="font-weight: 400;">Updates</span></h3>
+                <p><span style="font-weight: 400;">We provide our license holders who have an active and valid subscription
+                    and license key with one-click updates. As long as the license key generated from the purchase is valid
+                    and active, you can get access to the updates. We have the provision of updates for a 1 year time period.
+                    See license policy.</span></p>
+                <p><span style="font-weight: 400;">We advise you to constantly get updated with the current version of our
+                    themes for your usage. Since, we constantly update our themes to be compatible with the latest version of
+                    WordPress.</span></p>
+                <h3><span style="font-weight: 400;">Theme Support</span></h3>
+                <p><span style="font-weight: 400;">Please go through to </span><a
+                    href="https://thebootstrapthemes.com/help-support-policy/"><span style="font-weight: 400;">Help and
+                      Support Policy page</span></a><span style="font-weight: 400;"> for further details.</span></p>
+                <h3><span style="font-weight: 400;">Price Changes</span></h3>
+                <p><span style="font-weight: 400;">Please be informed that it is our sole right to modify or disallow,
+                    permanently or temporarily a subscription at any point in time and from time to time with or without any
+                    prior notice.</span></p>
+                <h3><span style="font-weight: 400;">Refund Policy</span></h3>
+                <p><span style="font-weight: 400;">Please go through to </span><a
+                    href="https://thebootstrapthemes.com/refund-policy/"><span style="font-weight: 400;">Refund Policy
+                      page</span></a><span style="font-weight: 400;"> for further details.</span></p>
+                <h3><span style="font-weight: 400;">Email</span></h3>
+                <p><span style="font-weight: 400;">We occasionally send you emails concerned with the purchase of the
+                    product(s) from our company. We also send you email newsletters concerning the WordPress and bootstrap
+                    themes promotions and updates. We assure you that we do not sell or release your email to any third-party
+                    vendors. You may withdraw your emails at any time without fine or penalty.</span></p>
+                <h3><span style="font-weight: 400;">License Agreement:</span></h3>
+                <p><span style="font-weight: 400;">We believe that you have provided your full consent and read and agreed to
+                    the Terms and Conditions mentioned and explained on this page while purchasing our product(s). We hold the
+                    right to change or modify the present Terms and Conditions solely without any prior consent or
+                    notice.</span></p>
+                <h3><span style="font-weight: 400;">Severability</span></h3>
+                <h3><span style="font-weight: 400;">If any part of this agreement is declared unenforceable or invalid, all
+                    remaining clauses in this agreement shall remain binding on the customer.</span></h3>
+              </div><!-- .entry-content -->
+            </article><!-- #post-44364 -->
+          </main><!-- #main -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
